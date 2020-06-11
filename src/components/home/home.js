@@ -47,7 +47,7 @@ export default {
 
         clckAceptar() {
 
-            let uri = "http://0.0.0.0:3000/getProcess";
+            let uri = "http://35.165.66.104:3000/getProcess";
 
             this.axios
                 .get(uri)
@@ -76,7 +76,7 @@ export default {
         deleteItem(e) {
             this.println(e);
 
-            let uri = "http://0.0.0.0:3000/killProcess";
+            let uri = "http://35.165.66.104:3000/killProcess";
 
             
             this.axios
